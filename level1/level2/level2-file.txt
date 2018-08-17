@@ -1,0 +1,11 @@
+
+428
+down vote
+accepted
+Depending on what you want the file to contain:
+
+touch /path/to/file for an empty file
+somecommand > /path/to/file for a file containing the output of some command.
+
+  eg: grep --help > randomtext.txt
+      echo "This is some tex

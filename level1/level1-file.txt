@@ -1,0 +1,15 @@
+
+428
+down vote
+accepted
+Depending on what you want the file to contain:
+
+touch /path/to/file for an empty file
+somecommand > /path/to/file for a file containing the output of some command.
+
+  eg: grep --help > randomtext.txt
+      echo "This is some text" > randomtext.txt
+nano /path/to/file or vi /path/to/file (or any other editor emacs,gedit etc)
+It either opens the existing one for editing or creates & opens the empty file to enter, if it doesn't exist
+
+shareedit
